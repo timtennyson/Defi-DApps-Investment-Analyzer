@@ -1,2 +1,4 @@
 # Defi-DApps-Investment-Analyzer
-This application allows us to perform a comprehensive analysis of top decentralized finance projects, comparing token yields to trend in price. 
+
+A tool for evaluating the strength of select dApps in order guide DeFi coin investment.
+
