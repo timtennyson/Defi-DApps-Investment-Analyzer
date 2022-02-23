@@ -13,15 +13,15 @@ This project uses Anaconda and Jupyterlab with Python 3.7
 It incorporates differents required dependencies. These dependencies include the folowing imports :
 
 
-import os
-import requests
-import json
-import pandas as pd
-from dotenv import load_dotenv
-from pycoingecko import CoinGeckoAPI
-from datetime import datetime
-from defillama import DefiLlama
+**import os**
+**import requests**
+**import json**
+**import pandas as pd**
+**from dotenv import load_dotenv**
+**from pycoingecko import CoinGeckoAPI**
+**from datetime import datetime**
+**from defillama import DefiLlama**
 
 
-%matplotlib inline
+**%matplotlib inline**
 
