@@ -68,4 +68,4 @@ To install this SDK, run the following command in your terminal:
 
 ```pip install alpaca-trade-api```
 
-
+  ## Usage
