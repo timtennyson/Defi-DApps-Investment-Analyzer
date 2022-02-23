@@ -8,17 +8,19 @@ Indeed, this project will try to provide an analysis by using Jupiter Notebook.
 The value of a coin is directly related to its control over liquidity. This can be measured by the following ratio: Market Cap/ Total Value Locked (TVL). Therefore, the investor will be able to use this tool to visualize TVL for all coins, Market Cap for all coins, and the comparison of the ratio between all the coins in order to see what is the best investment for him.
 
 ## Technologies
-This project uses Anaconda and Jupyterlab with Python 3.7 
+This project uses Anaconda and Jupyterlab with **Python 3.9** 
 
-It incorporates differents required dependencies. These dependencies include the folowing imports :
+It incorporates following 9 required dependencies. These dependencies include the folowing imports :
 
- 1. import **os**
- 2. import **requests**
- 3. import **json**
- 4. import **pandas** as **pd**
- 5. from **dotenv** import **load_dotenv**
- 6. from **pycoingecko** import **CoinGeckoAPI**
- 7. from **datetime** import **datetime**
- 8. from **defillama** import **DefiLlama**
- 9. **%matplotlib inline**
+```
+ import os
+ import requests
+ import json
+ import pandas as pd
+ from dotenv import load_dotenv
+ from pycoingecko import CoinGeckoAPI
+ from datetime import datetime
+ from defillama import DefiLlama
+ %matplotlib inline
 
+```
