@@ -7,14 +7,21 @@ Our DeFi projects aims to buil application to help the investors find the best p
 Indeed, this project will try to provide an analysis by using Jupiter Notebook. 
 The value of a coin is directly related to its control over liquidity. This can be measured by the following ratio: Market Cap/ Total Value Locked (TVL). Therefore, the investor will be able to use this tool to visualize TVL for all coins, Market Cap for all coins, and the comparison of the ratio between all the coins in order to see what is the best investment for him.
 
-# Technologies
+## Technologies
 This project uses Anaconda and Jupyterlab with Python 3.7 
 
 It incorporates differents required dependencies. These dependencies include the folowing imports :
 
-import numpy as np
-import pandas as pd
-import hvplot.pandas
-import sqlalchemy
 
+import os
+import requests
+import json
+import pandas as pd
+from dotenv import load_dotenv
+from pycoingecko import CoinGeckoAPI
+from datetime import datetime
+from defillama import DefiLlama
+
+
+%matplotlib inline
 
