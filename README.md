@@ -35,10 +35,11 @@ It incorporates the following 9 required dependencies. These dependencies includ
    2.Requests: The Python Requests library helps you access data via APIs.
    3.JSON: This library puts the response (that is, the data) from an API into a human-readable format.
 
-To install the Requests library, check that your development environment is active, and then run the following command:
-```conda install -c anaconda requests```
-To install the JSON library, check that your development environment is active, and then run the following command:
-```conda install -c jmcmurray json```
+ To install the Requests library, check that your development environment is active, and then run the following command:
+   ```conda install -c anaconda requests```
+
+ To install the JSON library, check that your development environment is active, and then run the following command:
+   ```conda install -c jmcmurray json```
 
 ### Install the python-dotenv Library
 
