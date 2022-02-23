@@ -20,6 +20,5 @@ It incorporates differents required dependencies. These dependencies include the
 6. from pycoingecko import CoinGeckoAPI
 7. from datetime import datetime
 8. from defillama import DefiLlama
-9. 
-10. %matplotlib inline
+9. %matplotlib inline
 
