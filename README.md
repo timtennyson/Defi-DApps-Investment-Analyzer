@@ -11,7 +11,7 @@ The value of a coin is directly related to its control over liquidity. This can 
 
 This project uses Anaconda and Jupyterlab with **Python 3.9** 
 
-It incorporates following 9 required dependencies. These dependencies include the folowing imports :
+It incorporates the following 9 required dependencies. These dependencies include the folowing imports :
 
 ```
  import os
