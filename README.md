@@ -26,3 +26,28 @@ It incorporates the following 9 required dependencies. These dependencies includ
 
 ```
  ## Installation Guide
+ 
+ ### Install the Request and Json Library 
+ 
+ We will use the following Python modules and libraries to facilitate API requests:
+
+   1.OS: The OS module comes under Python's standard utility models and provides functions for interacting with the computer's operating system. The OS module does          not require a separate download.
+   2.Requests: The Python Requests library helps you access data via APIs.
+   3.JSON: This library puts the response (that is, the data) from an API into a human-readable format.
+
+To install the Requests library, check that your development environment is active, and then run the following command:
+```conda install -c anaconda requests```
+To install the JSON library, check that your development environment is active, and then run the following command:
+```conda install -c jmcmurray json```
+
+### Install the python-dotenv Library
+
+To install this library, run the following command in your terminal:
+```pip install python-dotenv```
+
+### Install the Alpaca SDK
+
+To install this SDK, run the following command in your terminal:
+```pip install alpaca-trade-api
+
+
