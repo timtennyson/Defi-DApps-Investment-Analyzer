@@ -26,14 +26,27 @@ It incorporates the following 9 required dependencies. These dependencies includ
 
 ```
  ## Installation Guide
+ It is necessary to install the different dependencies before launching the application.
+ 
+ ### Install Anaconda 
+ 1. Install [Anaconda](https://www.anaconda.com/products/individual) using this link
+ 2. Open up GitBash(Windows) or Terminal(Mac)
+ 3. Type ```conda update conda```to update Conda
+ 4. Type ```conda update anaconda```to Update Anaconda
+ 5. Type ```conda -n dev python=3.9 anaconda```
+ 6. Type ```conda activate dev```to activate conda
+ 7. Install a dev environement kernel by typing ```python -m ipykernel install --user --name dev```
+ 8. Install a mode environement by typing ```conda install -c conda-forge nodejs```
+ 9. Launch JupyterLab by typing ```jupyter lab```
  
  
- ### 1)Install the Request and Json Library 
+ 
+ ### Install the Request and Json Library 
  We will use the following Python modules and libraries to facilitate API requests:
 
-   1.OS: The OS module comes under Python's standard utility models and provides functions for interacting with the computer's operating system. The OS module does          not require a separate download.
-   2.Requests: The Python Requests library helps you access data via APIs.
-   3.JSON: This library puts the response (that is, the data) from an API into a human-readable format.
+ 1. OS: The OS module comes under Python's standard utility models and provides functions for interacting with the computer's operating system. The OS module does          not require a separate download.
+ 2. Requests: The Python Requests library helps you access data via APIs.
+ 3. JSON: This library puts the response (that is, the data) from an API into a human-readable format.
 
  To install the Requests library, check that your development environment is active, and then run the following command:
   
@@ -45,12 +58,12 @@ It incorporates the following 9 required dependencies. These dependencies includ
 
 
 
-### 2)Install the python-dotenv Library
+### Install the python-dotenv Library
 To install this library, run the following command in your terminal:
 
 ```pip install python-dotenv```
 
-### 3)Install the Alpaca SDK
+### Install the Alpaca SDK
 To install this SDK, run the following command in your terminal:
 
 ```pip install alpaca-trade-api```
