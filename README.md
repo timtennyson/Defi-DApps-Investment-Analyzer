@@ -28,7 +28,7 @@ It incorporates the following 9 required dependencies. These dependencies includ
  ## Installation Guide
  
  
- ### Install the Request and Json Library 
+ ### 1)Install the Request and Json Library 
  We will use the following Python modules and libraries to facilitate API requests:
 
    1.OS: The OS module comes under Python's standard utility models and provides functions for interacting with the computer's operating system. The OS module does          not require a separate download.
@@ -45,12 +45,12 @@ It incorporates the following 9 required dependencies. These dependencies includ
 
 
 
-### Install the python-dotenv Library
+### 2)Install the python-dotenv Library
 To install this library, run the following command in your terminal:
 
 ```pip install python-dotenv```
 
-### Install the Alpaca SDK
+### 3)Install the Alpaca SDK
 To install this SDK, run the following command in your terminal:
 
 ```pip install alpaca-trade-api```
