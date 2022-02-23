@@ -29,7 +29,7 @@ It incorporates the following 9 required dependencies. These dependencies includ
  It is necessary to install the different dependencies before launching the application.
  
  ### Install Anaconda 
- 1. Install [Anaconda](https://www.anaconda.com/products/individual) using this link
+ 1. Install [Anaconda](https://www.anaconda.com/products/individual) 
  2. Open up GitBash(Windows) or Terminal(Mac)
  3. Type ```conda update conda```to update Conda
  4. Type ```conda update anaconda```to Update Anaconda
