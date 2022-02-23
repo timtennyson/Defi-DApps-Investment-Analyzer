@@ -25,3 +25,4 @@ It incorporates the following 9 required dependencies. These dependencies includ
  %matplotlib inline
 
 ```
+ ## Installation Guide
